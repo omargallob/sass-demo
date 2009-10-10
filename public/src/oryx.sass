@@ -1,0 +1,89 @@
+!microsite_color = #3cb5ea
+
+
+=centered
+	width: 975px
+	margin: 0px auto
+
+=bordered_bottom
+	border-bottom: 2px solid #000
+
+=bordered_left
+	border-left: 2px solid #000
+
+=bordered(!width=2px)
+	border= !width "solid" #000
+
+=marginated(!width=0px)
+	margin= 0px !width 0px !width
+
+=style_content
+	h1
+		font-family: Helvetica
+		font-size: 24px
+		font-weight: bold
+		color = !microsite_color
+		+marginated(30px)
+		margin-top: 160px
+	p
+		font-family: Arial
+		font-size: 12px
+		line-height: 15px
+		color: #fff
+		+marginated(30px)
+		margin-top: 15px
+		text-align: justify
+	a
+		height: 15px
+		float: right
+		color= !microsite_color
+		font-weight: bold
+		font-size: 12px
+		text-decoration: none
+		+marginated(30px)
+	img
+		width: 440px
+		height: 109px
+		+marginated(1px)
+
+body
+	background-color: #000
+
+#header
+	+centered
+	#links	
+		height: 102px
+		background-image: url(../images/system/test/A_header.png)
+	#top_gallery
+		height: 240px
+		background-image: url(../images/system/test/B_big_gallery.png)
+	#swf_banner
+		height: 119px
+		background-image: url(../images/system/test/B_swf_banner_tabs.png)
+#content
+	+centered
+	margin-top:	10px
+	height: 800px
+	background-image: url(../images/system/test/D_holder.png)
+	#microsite_link_container
+		float: right
+		margin: 1px 10px 0 0
+		width: 235px		
+		height: 484px
+		background-image: url(../images/system/test/D_micrositelinks.png)
+	.large
+		width: 487px
+		height: 275px
+		background-image: url(../images/system/test/D_large_image_w.png) 
+		float: left
+		+style_content
+	.small
+		+style_content
+	.left
+		+bordered_left
+#footer
+	+centered		
+	margin-top:	10px
+	height: 79px
+	background-image: url(../images/system/test/E_footer.png) 
+	

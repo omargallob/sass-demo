@@ -1,0 +1,21 @@
+body { background-color: #000; }
+
+#header { width: 975px; margin: 0px auto; }
+#header #links { height: 102px; background-image: url(../images/system/test/A_header.png); }
+#header #top_gallery { height: 240px; background-image: url(../images/system/test/B_big_gallery.png); }
+#header #swf_banner { height: 119px; background-image: url(../images/system/test/B_swf_banner_tabs.png); }
+
+#content { width: 975px; margin: 0px auto; margin-top: 10px; height: 800px; background-image: url(../images/system/test/D_holder.png); }
+#content #microsite_link_container { float: right; margin: 1px 10px 0 0; width: 235px; height: 484px; background-image: url(../images/system/test/D_micrositelinks.png); }
+#content .large { width: 487px; height: 275px; background-image: url(../images/system/test/D_large_image_w.png); float: left; }
+#content .large h1 { font-family: Helvetica; font-size: 24px; font-weight: bold; color: #3cb5ea; margin: 0px 30px 0px 30px; margin-top: 160px; }
+#content .large p { font-family: Arial; font-size: 12px; line-height: 15px; color: #fff; margin: 0px 30px 0px 30px; margin-top: 15px; text-align: justify; }
+#content .large a { height: 15px; float: right; color: #3cb5ea; font-weight: bold; font-size: 12px; text-decoration: none; margin: 0px 30px 0px 30px; }
+#content .large img { width: 440px; height: 109px; margin: 0px 1px 0px 1px; }
+#content .small h1 { font-family: Helvetica; font-size: 24px; font-weight: bold; color: #3cb5ea; margin: 0px 30px 0px 30px; margin-top: 160px; }
+#content .small p { font-family: Arial; font-size: 12px; line-height: 15px; color: #fff; margin: 0px 30px 0px 30px; margin-top: 15px; text-align: justify; }
+#content .small a { height: 15px; float: right; color: #3cb5ea; font-weight: bold; font-size: 12px; text-decoration: none; margin: 0px 30px 0px 30px; }
+#content .small img { width: 440px; height: 109px; margin: 0px 1px 0px 1px; }
+#content .left { border-left: 2px solid #000; }
+
+#footer { width: 975px; margin: 0px auto; margin-top: 10px; height: 79px; background-image: url(../images/system/test/E_footer.png); }
